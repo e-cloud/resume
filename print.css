@@ -245,3 +245,7 @@ a:not(.btn) {
   border: 2pt solid #cecdcd;
   content: " ";
 }
+
+#printer {
+  display: none;
+}

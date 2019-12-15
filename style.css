@@ -250,3 +250,29 @@ li::first-letter {
   border: 2px solid #cecdcd;
   content: " ";
 }
+
+#printer {
+  width: 36px;
+  height: 36px;
+  position: fixed;
+  right: 5vw;
+  top: 10vh;
+  border: 0;
+  box-shadow: 1px 1px 6px #505050;
+  transition: .3s ease-in;
+  background-color: #f6f6f6;
+}
+
+#printer:hover {
+  box-shadow: 1px 1px 10px #404040;
+  background-color: #eee;
+}
+
+#printer:active {
+  box-shadow: 1px 1px 2px #606060;
+  background-color: #eee;
+}
+
+#printer:focus {
+  outline: 0;
+}

@@ -313,6 +313,7 @@
               <li><span class="category">Programming languages</span><div class="sub-skills">Typescript/JavaScript, HTML, (S)CSS, Python, C#, SQL, Java</div></li>
               <li><span class="category">Technologies</span><div class="sub-skills">Angular, Vue, Node.js, Nest.js/Express/Koa, Rxjs, TypeORM, JQuery, Bootstrap, Git, MySQL, Chrome Extension, Flask</div></li>
               <li><span class="category">CI/CD</span><div class="sub-skills">Jenkins, Docker</div></li>
+              <li><span class="category">Mental</span><div class="sub-skills">Communication, Team Collaboration, Adaptability, Problem-Solving, Critical Thinking</div></li>
             </ul>
           </section>
 
@@ -365,5 +366,13 @@
         </div>
       </main>
     </article>
+
+    <button id="printer" class="rounded-circle" title="Print the resume"><i class="fas fa-print"></i></button>
+
+    <script>
+      document.getElementById('printer').addEventListener('click', function() {
+        window.print()
+      })
+    </script>
   </body>
 </html>
