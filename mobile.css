@@ -1,0 +1,201 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  background-image: url("./texture.jpg");
+  background-repeat: round;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
+.resume {
+  --content: #5c5c5c;
+  --divider-color: #d9d9d9;
+  --divider-bar-color: #ededed;
+  margin: 5em 0;
+}
+
+/* utils styles */
+.page {
+  margin: 0 1em;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider-hbar {
+  width: 61.8%;
+  border-top: 8px solid var(--divider-bar-color);
+  margin: 2em auto;
+}
+
+.divider-h {
+  border-top: 2px dashed var(--divider-color);
+  width: 100%;
+  margin: 2em auto;
+}
+
+/* content styles */
+.portrait {
+  width: 61.8vw;
+}
+
+.portrait img {
+  border: 1px solid #e2e2e2;
+}
+
+.professional-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.25px;
+}
+
+.summary {
+  width: 88%;
+  text-align: center;
+  color: var(--content);
+}
+
+.summary p:last-child {
+  margin-bottom: 0;
+}
+
+/* contact */
+.contact i {
+  font-size: 24px;
+  width: 24px;
+  text-align: center;
+  margin-right: 0.3em;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  color: var(--content);
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: #444;
+}
+
+.contact ul {
+  margin-bottom: 0;
+}
+
+.contact li:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+/* sections */
+.section-title {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .section-title::after {
+    content: " ";
+    display: block;
+    width: calc(100% + 1.2em);
+    border: 0.382em solid var(--divider-color);
+    top: 0.618em;
+    position: absolute;
+    z-index: -10;
+  }
+}
+
+.education {
+  align-self: start;
+}
+
+.education-history {
+  color: var(--content);
+}
+
+.education-history li > * {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.record-degree {
+  font-weight: bold;
+  font-family: Lato, Arial, sans-serif;
+}
+
+.jd-item {
+  font-size: 13px;
+  color: var(--content);
+}
+
+.jd-item:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+
+.jd-item .duration {
+  margin-bottom: 0;
+}
+
+.job-info {
+  font-size: 13px;
+  margin-bottom: 0.15em;
+  font-weight: bold;
+  font-family: lato, sans-serif;
+}
+
+.job-detail {
+  margin-top: 1em;
+}
+
+.job-detail strong {
+    font-weight: 600;
+}
+
+.skill-list {
+  font-size: 14px;
+}
+
+.project-list .title {
+  font-size: 1em;
+}
+
+.project-list .description {
+  font-size: 14px;
+  color: var(--content);
+  margin-bottom: 2em;
+}
+
+.category {
+  font-weight: 600;
+}
+
+/* miscellaneous */
+#printer {
+  display: none;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .page {
+    margin: 0 3em;
+  }
+
+  .portrait {
+    width: 46.8vw;
+  }
+
+  .divider-hbar {
+    width: 42%;
+  }
+}
