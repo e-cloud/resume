@@ -167,6 +167,10 @@
     font-size: 12px;
   }
 
+  .project-list strong {
+    color: var(--content);
+  }
+
   .category {
     font-size: 14px;
   }
@@ -190,7 +194,7 @@
   }
 
   .project-list .description {
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 
   #printer {

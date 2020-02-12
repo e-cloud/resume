@@ -40,6 +40,10 @@ li::first-letter {
   margin: 2em auto;
 }
 
+.resume strong {
+    font-weight: 600;
+}
+
 /* content styles */
 .portrait {
   width: 61.8vw;
@@ -157,10 +161,6 @@ li::first-letter {
 
 .job-detail {
   margin-top: 1em;
-}
-
-.job-detail strong {
-    font-weight: 600;
 }
 
 .skill-list {
