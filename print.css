@@ -246,6 +246,6 @@ a:not(.btn) {
   content: " ";
 }
 
-#printer {
+.btn-pinned {
   display: none;
 }

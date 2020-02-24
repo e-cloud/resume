@@ -213,4 +213,9 @@
   #printer:focus {
     outline: 0;
   }
+
+  #language-switcher {
+    right: 5.3vw;
+    top: 4vh;
+  }
 }
