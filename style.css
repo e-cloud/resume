@@ -164,7 +164,7 @@
 
   .skill-list,
   .project-list {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .project-list strong {
@@ -181,16 +181,6 @@
 
   .project-list .title {
     font-size: 14px;
-  }
-
-  .project-list .title::before {
-    display: block;
-    float: left;
-    width: 2px;
-    height: 1.15em;
-    margin-right: 0.5em;
-    border: 2px solid #cecdcd;
-    content: " ";
   }
 
   .project-list .description {

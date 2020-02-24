@@ -171,6 +171,16 @@ li::first-letter {
   font-size: 1em;
 }
 
+.project-list .title::before {
+  display: block;
+  float: left;
+  width: 2px;
+  height: 1.15em;
+  margin-right: 0.5em;
+  border: 2px solid #cecdcd;
+  content: " ";
+}
+
 .project-list .description {
   font-size: 14px;
   color: var(--content);
