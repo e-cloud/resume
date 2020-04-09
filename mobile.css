@@ -119,6 +119,10 @@ li::first-letter {
     position: absolute;
     z-index: -10;
   }
+
+  .raiser {
+    display: none;
+  }
 }
 
 .education {

@@ -27,7 +27,7 @@ li::first-letter {
 .page {
   --pw: 100vw;
   --ph: 100vh;
-  padding: 4.697vh 0;
+  padding: calc(0.04697 * var(--ph)) 0;
   width: var(--pw);
   height: var(--ph);
   display: flex;
@@ -49,12 +49,16 @@ li::first-letter {
 .column-left {
   flex: 37 1 37%;
   padding: 0 var(--column-gap);
+  display: flex;
+  flex-direction: column;
 }
 
 .column-right {
   margin-top: calc(0.01623 * var(--ph));
   flex: 63 3 63%;
   padding: 0 var(--column-gap);
+  display: flex;
+  flex-direction: column;
 }
 
 .divider-v {
@@ -110,6 +114,10 @@ li::first-letter {
 
 .summary p:last-child {
   margin-bottom: 0;
+}
+
+.raiser {
+  flex-grow: 1;
 }
 
 .contact {
@@ -168,6 +176,10 @@ li::first-letter {
 .record-degree {
   font-weight: bold;
   font-family: Lato, Arial, sans-serif;
+}
+
+.work-experience {
+  flex-grow: 1;
 }
 
 .jd-item {
@@ -246,6 +258,6 @@ a:not(.btn) {
   content: " ";
 }
 
-.btn-pinned {
+#printer, #language-switcher {
   display: none;
 }
