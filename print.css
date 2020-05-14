@@ -231,6 +231,15 @@ a:not(.btn) {
   bottom: 10pt;
 }
 
+.sub-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sub-skills > li {
+  flex-basis: 50%;
+}
+
 .skill-list, .project-list {
   font-size: 9pt;
 }

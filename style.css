@@ -156,29 +156,13 @@
     margin-bottom: 0;
   }
 
-  .score-bar {
+  .sub-skills {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .l1::after {
-    content: "\f005";
-  }
-  .l2::after {
-    content: "\f005\0020\f005";
-  }
-  .l3::after {
-    content: "\f005\0020\f005\0020\f005";
-  }
-  .l35::after {
-    content: "\f005\0020\f005\0020\f005\0020\f5c0";
-  }
-  .l4::after {
-    content: "\f005\0020\f005\0020\f005\0020\f005";
-  }
-  .l45::after {
-    content: "\f005\0020\f005\0020\f005\0020\f005\0020\f5c0";
-  }
-  .l5::after {
-    content: "\f005\0020\f005\0020\f005\0020\f005\0020\f005";
+  .sub-skills > li {
+    flex-basis: 50%;
   }
 
   .skill-list,
