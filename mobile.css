@@ -171,6 +171,11 @@ li::first-letter {
   font-size: 14px;
 }
 
+.skill-list star-rating {
+  --star-stroke: rgb(136, 136, 136);
+  --star-stroke-width: 0.2em;
+}
+
 .project-list .title {
   font-size: 1em;
 }
