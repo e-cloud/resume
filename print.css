@@ -216,6 +216,10 @@ a:not(.btn) {
   text-decoration: none;
 }
 
+.skills {
+  margin-top: 10em;
+}
+
 .sub-skills {
   display: flex;
   flex-wrap: wrap;
