@@ -217,7 +217,8 @@ a:not(.btn) {
 }
 
 .skills {
-  margin-top: 10em;
+  margin-top: 5em;
+  page-break-inside: avoid;
 }
 
 .sub-skills {
